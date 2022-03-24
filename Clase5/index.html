@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+
+<body>
+<!--titulo-->
+<h1>CREAR CUENTA</h1>
+<fieldset>
+    <!--el fieldset es para recuadrar el formulario-->
+    <legend>
+        <!-- o acentuada-->
+        Informaci&oacute;n Personal
+    </legend>
+        <br>
+    <form>
+        <label>Nombre *</label>
+        <input type="text" name="nombre">
+        <label>Apellido *</label>
+        <input type="text" name="apellido">
+        <br>
+        <label>Dirección de email *</label>
+        <input type="email" name="mail" placeholder="xxxx@gmail.com">
+        <br>
+        <label>Nro de documento *</label>
+        <input type="text" name="documento" placeholder="xxxxxxxx">
+        <br>
+         <!--solo numeros-->
+         <label>Edad</label>
+         <input type="number" name="edad">
+         <br>
+         <label>Aderirse al boletín de novedades</label>
+         <input type="checkbox" name="adh" value="si">
+         <br>
+         <label>Casado</label>
+         <span>SI</span>
+         <input type="radio" name="es casado" value="si"checked>
+         <SPan>NO</SPan>
+         <input type="radio" name="es casado" value="no"checked>
+         <br>
+ 
+         <label>Cantidad</label>
+         <select>
+             <option value="1">1</option>
+             <option value="2">2</option>
+             <option value="3">3</option>
+         </select>
+         <br>
+
+        <input type="submit" value="ENVIAR">
+
+    </form>
+
+</fieldset>
+
+<fieldset>
+    <legend>form con tabla</legend>
+    <form action="../Clase4/index.html" method="post">
+        <!--metodo get llevar la info una url sin metodo post, sino agrgar post-->
+         <table>
+             <tr>
+                 <!--con ALT mas direccionales puedo cambiar de lugar las columnas-->
+                 <td colspan="2">
+                 <label>Direccion de email *</label><br>
+                 <input type="email" name="email" placeholder="xxxx@gmail.com">
+                 </td>
+             </tr>
+              <tr>
+                 <td>
+                <label>Nombre *</label><br>
+                <input type="text" name="nombre" maxlength="3">
+                 </td>
+                 <td>
+                     <label>Apellido *</label><br>
+                     <input type="text" name="Apellido">
+                 </td>
+               </tr>
+               <tr>
+                   <td>
+                       <label>Nro de DNI *</label><br>
+                       <input type="number" min="0" max="99999999">
+                   </td>
+               </tr>
+               <tr>
+                   <td>
+                       <input type="submit" value="Guardar">
+                   </td>
+                </tr>
+            </table>
+    </form>
+</fieldset>
+    
+</body>
+</html>
