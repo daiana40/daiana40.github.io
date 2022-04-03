@@ -13,7 +13,7 @@
                 <h1>clase 6</h1>
                 <fieldset>
                     <legend>Alta de ususario</legend>
-                <form action="Altausuario.html">
+                <form action="Altausuario.html" method="post"> <!--la informacion viaja oculta con method post cambio a get para ver si lo envia-->
                     <input type="file" name="dni-frente">
                     <input type="hidden" value="valoroculto" name="campohidden">
 
@@ -22,10 +22,10 @@
                     <!--expresiones regulares-->
                     <input type="text" title="error de validacion" placeholder="un numero de 0-9" required pattern="[0-9]"> 
                    <br>
-                   <textarea name="info-extra" cols="50" rows="5"></textarea>
+                   <textarea name="info-extra" cols="50" rows="5" required placeholder="escribir un texto"></textarea>
                    <hr>
 
-                   <select multiple>
+                   <select name="selectmultiple"multiple required>
                        <optgroup label="Animales">
                            <option>León</option>
                            <option>Tigre</option>
@@ -38,8 +38,25 @@
                        </optgroup>
                     
                    </select>
-
-
+                   <br>
+                   <!--opciones autocompletables con datalist-->
+                   <input list="browser" name="databrowser">
+                   <!--a un imput lo relacionamos con la lista llamada con el id de la misma-->
+                   <datalist id="browser">
+                       <option>Chrome</option>
+                       <option>Edge</option>
+                       <option>Firefox</option>
+                       <option>Opera</option>
+                   </datalist>
+                   <br>
+                   <label for="buscar">Search</label>
+                   <input type="search" name="buscar" id="buscar"/>
+                   <br>
+                   <label for="text">texto</label>
+                   <input type="text" name="buscarText" id="text"/>
+                   <br>
+                   
+                   
                     <input type="submit" value="enviar">
                    
                 </form>
