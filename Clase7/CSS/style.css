@@ -6,3 +6,26 @@
 body{
     background-color: aqua;
 }
+
+/*aplicar estilo por id*/
+#idsection{ 
+    background-color: blueviolet;
+}
+#nav{
+    background-color: beige;
+}
+/*estilo por clases, .<nombredelaclase>*/
+.links{
+    color: fuchsia;
+}
+/*selector etiqueta*/
+a{
+    text-decoration-line: none;
+}
+/*el selector id supera al selector de clase*/
+#idlinkActive{
+ color: blanchedalmond;
+
+}
+
+
