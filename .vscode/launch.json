@@ -4,56 +4,11 @@
     // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-
-
-    {
-        "name": "Launch Chrome",
-        "request": "launch",
-        "type": "chrome",
-        "url": "http://localhost:8080",
-        "webRoot": "${workspaceFolder}"
-    },
-
-    {
-        "type": "chrome",
-        "request": "launch",
-        "name": "Open index.html",
-        "file": "c:\\Users\\DAIANA HERRERA\\daiana40.github.io\\Clase8\\index2.html"
-    },
         {
-            "type": "chrome",
+            "type": "pwa-chrome",
             "request": "launch",
             "name": "Open index.html",
-            
-            "file": "c:\\Users\\DAIANA HERRERA\\daiana40.github.io\\Clase7\\index2.html"
-        },
-        {
-            "type": "chrome",
-            "request": "launch",
-            "name": "Open index2.html",
-            
-            "file": "c:\\Users\\DAIANA HERRERA\\daiana40.github.io\\Clase8\\index.html"
-        },
-        {
-            "type": "chrome",
-            "request": "launch",
-            "name": "Open index.html",
-            
-            "file": "c:\\Users\\DAIANA HERRERA\\daiana40.github.io\\ejercicioboostrap1\\index.html"
-        },
-    {
-        "type": "chrome",
-        "request": "attach",
-        "name": "Attach to Chrome",
-        "port": 9222,
-        "webRoot": "${workspaceFolder}"
-    },
-        
-        {
-            "type": "chrome",
-            "request": "launch",
-            "name": "Open index.html",
-            "file": "c:\\Users\\DAIANA HERRERA\\daiana40.github.io\\Clase7\\index.html"
+            "file": "c:\\Users\\DAIANA HERRERA\\daiana40.github.io\\Clase9\\index.html"
         }
     ]
 }
