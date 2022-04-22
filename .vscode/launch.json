@@ -5,10 +5,17 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Launch Chrome",
+            "request": "launch",
+            "type": "chrome",
+            "name": "Open index.html",
+            "file": "c:\\Users\\DAIANA HERRERA\\daiana40.github.io\\tpintegrador1\\index.html"
+        },
+        {
             "type": "pwa-chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "c:\\Users\\DAIANA HERRERA\\daiana40.github.io\\Clase9\\index.html"
+            "file": "c:\\Users\\DAIANA HERRERA\\daiana40.github.io\\tpintegrador1\\index copy.html"
         },
         {
             "type": "pwa-chrome",
