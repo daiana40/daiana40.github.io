@@ -17,7 +17,7 @@
             "request": "launch",
             "type": "chrome",
             "name": "Open index.html",
-            "file": "c:\\Users\\DAIANA HERRERA\\daiana40.github.io\\tpintegrador1\\index.html"
+            "file": "c:\\Users\\DAIANA HERRERA\\daiana40.github.io\\tpintfinal\\index.html"
         },
         {
             "type": "pwa-chrome",
