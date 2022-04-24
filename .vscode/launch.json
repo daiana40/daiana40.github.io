@@ -4,6 +4,7 @@
     // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+
         {
             "name": "Attach to Chrome",
             "port": 9222,
@@ -17,13 +18,13 @@
             "request": "launch",
             "type": "chrome",
             "name": "Open index.html",
-            "file": "c:\\Users\\DAIANA HERRERA\\daiana40.github.io\\tpintfinal\\index.html"
+            "file": "c:\\Users\\DAIANA HERRERA\\daiana40.github.io\\trabajopracticointegrador\\index.html"
         },
         {
             "type": "pwa-chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "c:\\Users\\DAIANA HERRERA\\daiana40.github.io\\tpintegrador1\\index copy.html"
+            "file": "c:\\Users\\DAIANA HERRERA\\daiana40.github.io\\trabajopracticointegrador\\index.html"
         },
         {
             "type": "pwa-chrome",
