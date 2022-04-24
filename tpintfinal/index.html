@@ -14,6 +14,16 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+        <style>
+         footer{
+             background-color:#006064;
+             color:#ffff;
+             }
+             .btn-verdeagua{
+             background-color:#8bc34a;
+             color:#ffff;
+             }
+        </style>
 
 
 </head>
@@ -28,7 +38,8 @@
             </ul>
             <ul class="nav">
                 <li class="nav-item"><a href="#" class="nav-link link-dark px-2 text-white">La Conferencia</a></li>
-                <li class="nav-item"><a href="#" class="nav-link link-dark px-2 text-secondary">Los oradores</a>
+                <li class="nav-item"><a href="#Los oradores" class="nav-link link-dark px-2 text-secondary">Los
+                        oradores</a>
                 </li>
                 <li class="nav-item"><a href="#" class="nav-link link-dark px-2 text-secondary">El lugar y la
                         fecha</a></li>
@@ -40,6 +51,7 @@
         </div>
     </header>
     <!--carrousell y agregue dos botolones-->
+
 
     <main>
 
@@ -64,7 +76,7 @@
                         <div class="carousel-caption text-start">
                             <h1>Conferencia Buenos Aires</h1>
                             <p>Bienvenidos por primera vez un evento tecnologico para ampliar el conocimiento</p>
-                            <p><a class="btn btn-lg btn-primary" href="#" hidden >Sign up today</a></p>
+                            <p><a class="btn btn-lg btn-primary" href="#" hidden>Sign up today</a></p>
                             <p>
                                 <a href="#" class="btn btn-light my-2">Quiero ser orador</a>
                                 <a href="#" class="btn btn-success my-2">Comprar tickets</a>
@@ -120,12 +132,21 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
-
+        <hr class="featurette-divider">
 
         <!-- fin del carrousell -->
-        <div class="container">
-        <h2>Los Oradores</h2>
-    </div>   
+        <!--ver alineación del div-->
+        <figure class="text-center">
+            <blockquote class="blockquote">
+                <figcaption class="blockquote-header">
+                    Conoce a los <cite title="Source Title"></cite>
+                </figcaption>
+                <h2>Oradores</h2>
+            </blockquote>
+
+        </figure>
+
+
         <!-- Wrap the rest of the page in another container to center all the content. -->
         <div class="album py-5 bg-light">
             <div class="container">
@@ -139,8 +160,8 @@
 
                             <div class="card-body">
                                 <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">Java</button>
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">React</button>
+                                    <button type="button" class="btn btn-sm btn-warning">Java</button>
+                                    <button type="button" class="btn btn-sm btn-primary">React</button>
                                 </div>
                                 <h4>Steve Jobs</h4>
                                 <p class="card-text">This is a wider card with supporting text below as a natural
@@ -159,8 +180,8 @@
 
                             <div class="card-body">
                                 <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">Java</button>
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">React</button>
+                                    <button type="button" class="btn btn-sm btn-warning">Java</button>
+                                    <button type="button" class="btn btn-sm btn-primary">React</button>
                                 </div>
                                 <h4>Bill Gates</h4>
                                 <p class="card-text">This is a wider card with supporting text below as a natural
@@ -179,8 +200,8 @@
 
                             <div class="card-body">
                                 <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">Negocios</button>
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">startUps</button>
+                                    <button type="button" class="btn btn-sm btn-secondary">Negocios</button>
+                                    <button type="button" class="btn btn-sm btn-danger">startUps</button>
                                 </div>
                                 <h4>Ada Lovelance</h4>
                                 <p class="card-text">This is a wider card with supporting text below as a natural
@@ -195,100 +216,79 @@
             </div>
         </div>
 
-
-        <h2>Heading</h2>
-        <p>And lastly this, the third column of representative placeholder content.</p>
-        <p><a class="btn btn-secondary" href="#">View details »</a></p>
-        </div><!-- /.col-lg-4 -->
-        </div><!-- /.row -->
-
-
         <!-- START THE FEATURETTES -->
-
-        <hr class="featurette-divider">
-
         <div class="row featurette">
-            <div class="col-md-7">
-                <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your
-                        mind.</span></h2>
-                <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting
-                    prose here.</p>
+            <div class="col-md-7 order-md-2 bg-secondary text-white">
+              <h2 class="featurette-heading">Buenos Aires - Octubre</h2>
+              <p class="lead">Buenos Aires es la provincia y localidad mas grande del estado de Argentina, en los Estados Unidos. Honolulu es la mas sureña entre las principales ciudades Estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en al costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidad que cubre toda la ciudad (aproximadamente 600km2 de superficie).</p>
             </div>
-            <div class="col-md-5">
-                <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-                    height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
-                    preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa"
-                        dy=".3em">500x500</text>
-                </svg>
-
+            <div class="col-md-5 order-md-1 bg-secondary">
+              <img src="./img/honolulu.jpg" alt="honolulu"  width="500" height="500" featurette-image img-fluid mx-auto">
             </div>
-        </div>
-
-        <hr class="featurette-divider">
-
-        <div class="row featurette">
-            <div class="col-md-7 order-md-2">
-                <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for
-                        yourself.</span></h2>
-                <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how
-                    this layout would work with some actual real-world content in place.</p>
-            </div>
-            <div class="col-md-5 order-md-1">
-                <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-                    height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
-                    preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa"
-                        dy=".3em">500x500</text>
-                </svg>
-
-            </div>
-        </div>
-
-        <hr class="featurette-divider">
-
-        <div class="row featurette">
-            <div class="col-md-7">
-                <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-                <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really
-                    intended to be actually read, simply here to give you a better view of what this would look like
-                    with some actual content. Your content.</p>
-            </div>
-            <div class="col-md-5">
-                <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-                    height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
-                    preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa"
-                        dy=".3em">500x500</text>
-                </svg>
-
-            </div>
-        </div>
-
-        <hr class="featurette-divider">
+          </div>
 
         <!-- /END THE FEATURETTES -->
 
-        </div><!-- /.container -->
+        <figure class="text-center">
+            <blockquote class="blockquote">
+                <figcaption class="blockquote-header">
+                    Conviertete en un <cite title="Source Title"></cite>
+                </figcaption>
+                <h2>Orador</h2>
+                <figcaption class="blockquote-footer">
+                    Anótate como un orador para dar una charla ignite.¡Cuéntanos de qué quieres hablar!
+                    <cite title="Source Title"></cite>
+                </figcaption>
+            </blockquote>
 
+            <!--insertar un formulario-->
 
-        <!-- FOOTER -->
-        <footer class="container">
-            <p class="float-end"><a href="#">Back to top</a></p>
-            <p>© 2017–2021 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
-        </footer>
+            <div class="d-grid gap-2 col-6 mx-auto">
+                <div class="row g-2">
+                    <div class="col-md">
+                        <div class="form-floating">
+                            <input type="text" class="form-control" id="floatingInputGrid">
+                            <label for="floatingInputGrid">Nombre</label>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="form-floating">
+                            <input type="text" class="form-control" id="floatingInputGrid">
+                            <label for="floatingInputGrid">Apellido</label>
+                        </div>
+                    </div>
+                    <div>
+                        <SPAN>
+                            <div class="col-md">
+                                <div class="form-floating">
+                                    <textarea class="form-control" placeholder="Leave a comment here"
+                                        id="floatingTextarea2" style="height: 100px"></textarea>
+                                    <label for="floatingTextarea2">¿De qué quieres hablar?</label>
+                                    <p><em>Recuerda incluir un titulo para tu charla</em></p>
+                                </div>
+
+                            </div>
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-verdeagua" type="button">Enviar</button>
+
+                            </div>
+                        </span>
+                        </form>
+                    </div>
+                </div>
     </main>
-
-    <section class="align-center">
-        <div class="d-flex flex-wrap align-items-center justify-content-right">
-            <h4>Conoce a los Oradores</h4>
-        </div>
-    </section>
-
-    </main>
+    <!-- FOOTER  elegir otro-->
+    <footer class="container">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Preguntas frecuentes</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Contactanos</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Prensa</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-white">conferencias</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Terminos y condicones</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Privacidad</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Estudiantes</a></li>
+            </ul>
+    </footer>
 
 </body>
 

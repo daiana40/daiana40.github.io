@@ -5,6 +5,14 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "chrome",
+            "webRoot": "${workspaceFolder}"
+        },
+
+        {
             "name": "Launch Chrome",
             "request": "launch",
             "type": "chrome",
@@ -27,7 +35,7 @@
             "type": "pwa-chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "c:\\Users\\DAIANA HERRERA\\daiana40.github.io\\practica1\\index.html"
+            "file": "c:\\Users\\DAIANA HERRERA\\daiana40.github.io\\tp2\\index.html"
         }
 
 
