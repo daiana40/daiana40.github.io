@@ -38,6 +38,13 @@
             "name": "Open index.html",
             "file": "c:\\Users\\DAIANA HERRERA\\daiana40.github.io\\tp2\\index.html"
         }
+        {
+            "name": "Launch Chrome",
+            "request": "launch",
+            "type": "chrome",
+            "name": "Open index.html",
+            "file": "c:\\Users\\DAIANA HERRERA\\daiana40.github.io\\tpintegradorjs\\index.html"
+        }
 
 
     ]
