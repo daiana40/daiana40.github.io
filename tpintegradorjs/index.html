@@ -82,79 +82,95 @@
                     </figcaption>
                     <h2 class="display-6">VALOR DE TICKET $200</h2>
                 </blockquote>
-
-                <div class="d-grid gap-2 col-6 mx-auto">
-                    <div class="row g-2">
-                        <div class="col-md">
-                            <div class="form-floating">
-                                <input type="text" class="form-control" id="floatingInputGrid">
-                                <label for="floatingInputGrid">Nombre</label>
-                            </div>
-                        </div>
-                        <div class="col-md">
-                            <div class="form-floating">
-                                <input type="text" class="form-control" id="floatingInputGrid">
-                                <label for="floatingInputGrid">Apellido</label>
-                            </div>
-                        </div>
-                        <div>
-                            <SPAN>
-                                <form action="formulario.php" method="post">
-                                    <div class="col-md">
-                                        <div class="form-floating">
-                                            <textarea class="form-control" placeholder="Leave a comment here"
-                                                id="floatingTextarea2" style="height: 100px"></textarea>
-                                            <label for="floatingTextarea2">¿De qué quieres hablar?</label>
-                                            <p><em>Recuerda incluir un titulo para tu charla</em></p>
-                                        </div>
-
-                                    </div>
-                                    <div class="d-grid gap-2">
-                                        <button class="btn btn-verdeagua" type="submit" value="enviar">Enviar</button>
-
-                                    </div>
-
-                                </form>
-                            </span>
-                        </div>
-                    </div>
+            </figure>
+        </div>
+    </section>
+    <div class="d-grid gap-2 col-6 mx-auto">
+        <div class="row g-2">
+            <div class="col-md">
+                <div class="form-floating">
+                    <input type="text" class="form-control" id="floatingInputGrid">
+                    <label for="floatingInputGrid">Nombre</label>
                 </div>
-                </main>
-                <hr>
-                <!-- FOOTER-->
-                <footer class="container-fluid">
-                    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-                        <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Preguntas Frecuentes</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Contactanos</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Prensa</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Conferencias</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Terminos y Condiciones</a>
-                        </li>
-                        <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Privacidad</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Estudiantes</a></li>
-                    </ul>
-                </footer>
-                //defino el precio
-                let precio=200
-                // defino el precio segun tipo de comprador por porcentaje
-                let Estudiante= precio-(precio*80/100)
-                let Trainee= precio-(precio*50/100)
-                let Junior= precio-(precio*20/100)
-                //pruebo retorno de info
-                //return Estudiante
-                //defino cantidad, en realidad, es variable y toma la info de un btn donde ingreso el num
-                let cantidad=5
-                // defino la formula que voy a ejecutar con el btn resumen
-                cantidad*=Estudiante
-                //definir donde se muestra esta informacion en el cuadro total
-                //puedo definir con funciones
-                Function estudiante (200){
-                return 200 - (200*80/100);
-                }
+            </div>
+            <div class="col-md">
+                <div class="form-floating">
+                    <input type="text" class="form-control" id="floatingInputGrid">
+                    <label for="floatingInputGrid">Apellido</label>
+                </div>
+            </div>
+            <div>
+                <SPAN>
+                    <div class="col-md">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Correo</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="name@example.com">
+                        </div>
+                        <div class="row g-2">
+                            <div class="col-md">
+                                <div class="form-floating">
+                                    <input type="number" class="form-control" id="floatingInputGrid">
+                                    <label for="floatingInputGrid">cantidad</label>
+                                </div>
+                                <div class="col-md">
+                                    <select class="form-select form-select-lg mb-3"
+                                        aria-label=".form-select-lg example">
+                                        <option selected>Categoria</option>
+                                        <option value="1">Estudiante</option>
+                                        <option value="2">Trainee</option>
+                                        <option value="3">Junior</option>
+                                    </select>
+                                </div>
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="floatingInputGrid">
+                                    <label for="floatingInputGrid">total</label>
+                                </div>
+                                <button type="button" class="btn btn-verdeagua btn-lg">BORRAR</button>
+                                <button type="button" class="btn btn-verdeagua btn-lg">RESUMEN</button>
+                            </div>
+                        </div>
+                </span>
+            </div>
+        </div>
+    </div>
+    </main>
+    <hr>
+    <!-- FOOTER-->
+    <footer class="container-fluid">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Preguntas Frecuentes</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Contactanos</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Prensa</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Conferencias</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Terminos y Condiciones</a>
+            </li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Privacidad</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Estudiantes</a></li>
+        </ul>
+    </footer>
+    <script>
+        //defino el precio
+        let precio = 200
+        // defino el precio segun tipo de comprador por porcentaje
+        let Estudiante = precio - (precio * 80 / 100)
+        let Trainee = precio - (precio * 50 / 100)
+        let Junior = precio - (precio * 20 / 100)
+        //pruebo retorno de info
+        //return Estudiante
+        //defino cantidad, en realidad, es variable y toma la info de un btn donde ingreso el num
+        let cantidad = 5
+        // defino la formula que voy a ejecutar con el btn resumen
+        cantidad *= Estudiante
+    //definir donde se muestra esta informacion en el cuadro total
+    //puedo definir con funciones
+    Function estudiante(200){
+            return 200 - (200 * 80 / 100);
+        }
 
 
 
 
-                </script>
+    </script>
 
 </html>
