@@ -13,33 +13,26 @@
             "webRoot": "${workspaceFolder}"
         },
 
+      
         {
-            "name": "Launch Chrome",
-            "request": "launch",
             "type": "chrome",
-            "name": "Open index.html",
-            "file": "c:\\Users\\DAIANA HERRERA\\daiana40.github.io\\trabajopracticointegrador\\index.html"
-        },
-        {
-            "type": "pwa-chrome",
             "request": "launch",
             "name": "Open index.html",
             "file": "c:\\Users\\DAIANA HERRERA\\daiana40.github.io\\trabajopracticointegrador\\index.html"
         },
         {
-            "type": "pwa-chrome",
+            "type": "chrome",
             "request": "launch",
             "name": "Open index.html",
             "file": "c:\\Users\\DAIANA HERRERA\\daiana40.github.io\\Clase11\\index.html"
         },
         {
-            "type": "pwa-chrome",
+            "type": "chrome",
             "request": "launch",
             "name": "Open index.html",
             "file": "c:\\Users\\DAIANA HERRERA\\daiana40.github.io\\tp2\\index.html"
-        }
+        },
         {
-            "name": "Launch Chrome",
             "request": "launch",
             "type": "chrome",
             "name": "Open index.html",
